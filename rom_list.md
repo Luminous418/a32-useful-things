@@ -173,4 +173,37 @@
         * Added new settings
         - Fixes: Lag on security settings, system sound, SSRM warning, clock selection on lockscreen, recent calls on phone app, Studio app
     * **Download:** [[Telegram]](https://t.me/lumiromgroup)
-* 
+* A165F Port
+    * **Author:** [@msan_vigus](https://msan_vigus.t.me/)
+    * **Features | Changelogs:**
+        * Optimize for binary C1 and C2(a325f), also B2 (for a325m, base on MXO)
+        *  S series flagship app open/close animations, but a series blur to have less lag in ui.
+        * Much debloat
+        * Light rom fr
+    * **Download:** [[Google Drive]](https://drive.google.com/drive/folders/1AKZIFH_44P1fTy0EdEM0YCaXfv8CadmC)
+* The Mirage Sky:
+    * **Author:** [zΣon | ncatt](https://xdaforums.com/m/zson.12674257/)
+    * **Features | Changelogs:**
+        * Modified ff.xml, build.prop and add cscfeatures.xml
+        * Removed ICCC
+        * Change renderer from OpenGL to Vulkan
+    * **Download:** [[Microsoft SharePoint]](https://wq64c-my.sharepoint.com/:u:/g/personal/nguyenkhanh_astralmagic_wq64c_onmicrosoft_com/Ef8GUwElxztFpHs97YrsejEBiVikzziTnl8WxtyaI2Mt5Q?e=eVl4NX)
+
+* Project: Longinus
+    * **Author:** [zΣon | ncatt](https://xdaforums.com/m/zson.12674257/)
+    * **Features | Changelogs:**
+        * Removed ICCC
+        * Fix audio
+        * Fix crash some apps
+        * Add NTBox (not available rn)
+        * Debloated trash apps & Knox apps
+        * More...
+    * **Download:** [[Google Drive]](https://drive.google.com/drive/folders/1Fg-uDMW3bT6JkPL0e7bG1bLkcfWrnsVi)
+
+* Project: Gaius
+    * **Author:** [zΣon | ncatt](https://xdaforums.com/m/zson.12674257/)
+    * **Features | Changelogs:**
+        * Fix Contact app can't create new contact
+        * Modified things for heat and increase performance
+        * More...
+    * **Download:** [[Microsoft SharePoint]](https://1drv.ms/u/c/8bfe7276367b0130/EdEc1l6wG4NMuR7VJbRzuJ8B923eV0Cu3IMsc6rSqaphgg?e=bKHGvF)
