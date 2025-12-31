@@ -155,7 +155,7 @@
         - Fixed permissive kernel, now all builds are enforcing for default
         - Fixed (at least tried) the anims on system, now should be smoother in general
         - Added DEX?
-    * **Download:** [[Not available :( sorry for abt that]]
+    * **Download:** [Not available :( sorry for abt that]
 * LumiROM v8
     * **Author:** [Luminous | 418](https://Luminous418.t.me)
     * **Features | Changelogs:**
