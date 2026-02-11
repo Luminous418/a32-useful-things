@@ -14,7 +14,7 @@ Community-driven repository containing custom recoveries, ADB/Fastboot installer
 
 \- **Device:** Samsung Galaxy A32
 
-\- **Models:** A325F / A325M / A325N
+\- **Models:** A325F / A325M
 
 \- **Codename:** a32
 
