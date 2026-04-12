@@ -208,6 +208,3 @@
         * Modified things for heat and increase performance
         * More...
     * **Download:** [[Microsoft SharePoint]](https://1drv.ms/u/c/8bfe7276367b0130/EdEc1l6wG4NMuR7VJbRzuJ8B923eV0Cu3IMsc6rSqaphgg?e=bKHGvF)
-=======
-* 
->>>>>>> 7ae9c725ed170914a176d446c6fcc44f5859fa4c
