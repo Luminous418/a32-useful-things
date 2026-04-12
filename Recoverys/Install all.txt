@@ -1,0 +1,97 @@
+https://forum.xda-developers.com/t/recovery-a325x-stable-ish-unofficial-twrp-3-6-2_12-1-galaxy-a32-4g.4421287/
+Install:
+
+If you have TWRP or any custom recovery installed and bootable, you can upgrade instead; Look below.
+
+<!> the installation will require WIPING DATA. You will also lose access to all Knox-based solutions like Secure Folder.
+Backup every precious data you have on your phone.
+
+<!> PC is required. Windows is preferred. (You probably know what you are doing when using Linux/Heimdall. We don't talk about Macs)
+Unlock Bootloader:
+Go to Settings > About Phone > About Software. Tap build number (10 times) until "you are now a developer" toast shows up.
+Go back, go to Developer Settings.
+Turn on OEM unlock toggle.
+Turn off your phone, hold vol-up + vol-down, then plug in charging cable (please don't use 3rd-party charging-only cable, it must have data transfer capability).
+Your device will boot into download mode with a warning. Accept it.
+
+Hold volume-up until the phone shows the bootloader unlock panel "Unlock Bootloader?".
+Press volume-up again. Now your phone bootloader is unlocked.
+<!> It will now begin the process of wiping data. Let it do its job.
+‎
+When it reboots to OS, finish setting up your device.
+Double check to make sure OEM Unlock is still ON.
+‎ ‎
+ 
+Preparing for the installation:
+Download everything above onto your PC.
+Install Samsung USB Driver.
+Open Odin.
+Connect your phone to your PC. There should be a COM entry on the top.
+Make sure your phone is in Download Mode. (see step 4 of section Unlock Bootloader)
+Make sure that OEM LOCK and REACTIVATION LOCK on your screen show "OFF". If it's not off, DO NOT PROCEED ANY FURTHER.
+
+<!> For those with lock ON, use your device for 7 days without rebooting once. Then check the locks above again.
+‎  
+ 
+Installing:
+Ensure phone is in Download mode.
+In Odin:
+Load in Userdata: VBMeta_disabler.tar file.
+Load in AP: TWRP TAR file.
+Prepare yourself. keep your hand on Volume-up and Power button (don't press yet).
+In Odin, press Start. It will flash, then reboot. When the screen turned off, quickly press Vol-up and Power button to boot to recovery (this should take about 20~30 seconds).
+<!> You should have TWRP up and running now.
+‎  
+ 
+Post-Installation:
+MUST: Trigger Multi-disabler.
+In TWRP, go to Advanced > Terminal.
+Type multidisabler, then enter. If it fails with something about vendor free space, run it again.
+Run multidisabler again.
+Go to main screen. go to Wipe > Format Data, type yes then swipe.
+Reboot to Recovery. Now you can do other stuff.
+ 
+Should: Backup all vital partitions:
+In TWRP, go to Backup
+Backup: EFS, Modem, NVRAM.
+ 
+If you want to root, MUST: make NVD_IMEI read-only.
+<!> Magisk has a bug on MTK A-only devices where after some time the IMEI is lost, causing loss of mobile communication.
+
+<!> For now please refrain from rooting your A32.
+
+<!> If you still wish to continue, BACKUP EVERYTHING FIRST, ESPECIALLY NVRAM/EFS. Then, please follow instruction here as mitigation under OneUI:
+https://forum.xda-developers.com/t/fixed-rooted-a325m-suddenly-no-imei-no-sim.4386753/post-86588571
+
+Magisk issue: https://github.com/topjohnwu/Magisk/issues/1801
+I will update this when the issue is fixed. And of course, follow the XDA thread above for full updates. The mitigation isn't perfect and users already reported some quirks.
+
+Enjoy: Reboot your phone to have a rooted stock, install custom stuff or do whatever you want.
+
+
+Upgrade:
+
+<!> Use when you already have any custom recovery installed (TWRP, SHRP, Ofox and the likes)
+Download TWRP image instead: https://github.com/almondnguyen/twr...a32-20220703/TWRP-3.6.2_12.1-a32-20220703.img
+Copy it to phone, then reboot to TWRP (Combo is Power + Volume-up)
+Go: Install > Install image > select TWRP .img file > select Recovery
+Swipe to confirm flashing.
+If success, reboot to recovery.
+<!> You can also use Odin to upgrade, the steps similar to the Install section. All Post-installation, if already done, is unnecessary to do again.
+
+GSI and related stuff:
+
+GSI should be directly flashable now. Big credit to @Long266
+Install TWRP, do all the instructions.
+Download a GSI. Phh's is a good start.
+github.com
+Releases · phhusson/treble_experimentations
+Notes about tinkering with Android Project Treble. Contribute to phhusson/treble_experimentations development by creating an account on GitHub.
+github.com
+If downloaded an XZ file, extract it to get an IMG file. Copy the IMG file to your phone.
+Reboot into TWRP.
+Tap Install > Install Image > Select your GSI .img file.
+Select System Image, then flash.
+If previously you were on stock, Wipe > Format data.
+Reboot System.
+Profit.
