@@ -25,15 +25,3 @@ Community-driven repository containing custom recoveries, ADB/Fastboot installer
 \- **Partition scheme:** A-only (non A/B)
 
 \- **Bootloader:** Unlockable (OEM Unlock)
-
-
-
-##
-
-**For get latest OneUi roms check:**
-
-**LumiROM Channel:** https://t.me/LumiROMs
-
-**LumiROM Group:** https://t.me/lumiromgroup
-
-##
