@@ -1,0 +1,10 @@
+# Dependencies
+
+- libusb: Required for USB communication.
+- adb: Android Debug Bridge tool, which might be needed for some operations.
+- unzip: To extract the odin.zip file.
+
+on Ubuntu, you can use:
+```bash
+sudo apt install libusb-dev adb unzip
+```
